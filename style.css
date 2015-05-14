@@ -1,17 +1,35 @@
 body {
-    background: #451C96;
-    color: #fff;
+
+    background: url(https://unsplash.imgix.net/photo-1418065460487-3e41a6c84dc5?fit=crop&fm=jpg&h=700&q=75&w=1050) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #626E5F;
     font-family: 'Open Sans', sans-serif;
+    overflow-y: hidden;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
 }
 
 .welcome {
     font-size: 4rem;
+    font-weight: 700;
+    margin-top: 50px;
 }
 
 .day {
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .time {
-    font-size: 4rem;
+    font-size: 8rem;
 }
