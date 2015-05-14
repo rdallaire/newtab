@@ -1,5 +1,5 @@
 function TimeCtrl($scope, $timeout) {
-    $scope.clock = "loading clock..."; // initialise the time variable
+    $scope.clock = ""; // initialise the time variable
     $scope.tickInterval = 1000 //ms
 
     var tick = function () {
