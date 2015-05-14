@@ -4,6 +4,7 @@
     <head>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,800,600,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
         <script src="scripts.js"></script>
@@ -12,9 +13,12 @@
     <body ng-app="">
 
         <div ng-controller="TimeCtrl" class="container">
-            <p class="welcome">Hello Ross</p>
-            <p class="day">{{ clock | date:'EEEE MMMM dd'}}</p>
-            <p class="time">{{ clock | date:'h:mm'}}</p>
+            <p class="welcome fadeInDown animated">Hello Ross</p>
+            <p class="day fadeIn animated">{{ clock | date:'EEEE MMMM dd'}}</p>
+            <p class="time fadeIn animated">
+                {{ clock | date:'h:mm'}}
+                <span class="seconds">{{ clock | date:':ss'}}</span>
+            </p>
         </div>
 
     </body>
