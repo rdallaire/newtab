@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
-    <script src="scripts.js"></script>
-    <title>{{ clock | date:'h:mm:ss a'}}</title>
-  </head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+        <script src="scripts.js"></script>
+    </head>
 
-  <body ng-app="">
+    <body ng-app="">
 
-    <div ng-controller='TimeCtrl'>
-        <h1>{{ clock | date:'EEEE MMMM dd'}}</h1>
-        <h1>{{ clock | date:'h:mm:ss a'}}</h1>
-    </div>
+        <div ng-controller="TimeCtrl" class="row">
+            <p class="welcome">Hello Ross</p>
+            <p class="day">{{ clock | date:'EEEE MMMM dd'}}</p>
+            <p class="time">{{ clock | date:'h:mm:ss a'}}</p>
+        </div>
 
-  </body>
+    </body>
 
 </html>

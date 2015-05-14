@@ -1,0 +1,16 @@
+body {
+    background: #451C96;
+    color: #fff;
+}
+
+.welcome {
+    font-size: 4rem;
+}
+
+.day {
+    font-size: 2rem;
+}
+
+.time {
+    font-size: 4rem;
+}
