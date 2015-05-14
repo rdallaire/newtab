@@ -2,7 +2,7 @@
 
 A custom new tab page I use for chrome that uses AngularJS.
 
-[Imgur](http://i.imgur.com/FjiixvY.jpg)
+![Imgur](http://i.imgur.com/FjiixvY.jpg)
 
 ### Future Ideas
 * Add calendar for the day
